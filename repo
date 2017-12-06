@@ -1,0 +1,23 @@
+schoolfoodhandler@ahN-schoolfoodhandler:~$ git pull https://github.com/blueprintmrk/schoolfood.git
+warning: no common commits
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/blueprintmrk/schoolfood
+ * branch            HEAD       -> FETCH_HEAD
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <schoolfoodhandler@kinsta2.kinsta.com>) not allowed
+schoolfoodhandler@ahN-schoolfoodhandler:~$ Run  git config --global user.email "tzickell@blueprintmarketing.com"
+schoolfoodhandler@ahN-schoolfoodhandler:~$ Run git config --global user.email "schoolfoodhandler@kinsta2.kinsta.com"
+git config --global user.name "Thomas Zickell"
